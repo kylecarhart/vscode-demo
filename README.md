@@ -19,13 +19,9 @@ Here is a list of some of my most used extensions. You can install them by click
 1. [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - Automatically rename paired HTML/XML tag.
 2. [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) - Mark lines and jump to them.
 3. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Spelling checker for source code.
-4. [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - Real-time collaborative development, great for pair programming.
+4. [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - Free real-time collaborative development, great for pair programming.
 5. [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Code formatter.
 6. [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) - Highlight TODOs, FIXMEs, and any keywords, annotations...
-
-<!-- [UUID Generator](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.uuid-generator) - Generate UUIDs. -->
-
-<!-- [Figma for VS Code](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension) - Figma for VS Code. -->
 
 **Git**
 
@@ -61,19 +57,22 @@ Here is a list of some of my most used extensions. You can install them by click
 
 ## Settings
 
-1. Settings Sync
-2. Auto Formatting Code
+### Changing Settings
 
-## Commands
+You can open and changes settings through the UI or through the `settings.json` file. To open the settings UI, press `Ctrl + ,` (win) or `Cmd + ,` (mac). To open the `settings.json` file, press `Ctrl + Shift + P` (win) or `Cmd + Shift + P` (mac) and search for `Preferences: Open Settings (JSON)`.
 
-Commands are an important way to interact with VSCode and your code. To open the command palette, press `Ctrl + Shift + P` (win) or `Cmd + Shift + P` (mac) or `F1` (win & mac).
+#### Configuring Prettier Extension:
 
-**Useful Commands:**
+1. Open the settings UI.
+2. Search for `"Default formatter"` and select `esbenp.prettier-vscode`.
+3. Search for `"Format on save"` and check the box.
+4. Search for `"Format on paste"` and check the box (optional).
 
-- Format Document
-- Organize Imports
-- Sort Lines Ascending/Descending
-- Transform to Uppercase/Lowercase
+### Settings Sync
+
+Turn on settings sync to sync your settings across devices. You can turn on settings sync by clicking the icon in the bottom left corner of VSCode. You will need to sign in with a Microsoft or GitHub account.
+
+You can also create different profiles for different devices. For example, you can have a profile for your work computer and a profile for your home computer. You could also split the profiles by language, project, etc...
 
 ## Shortcuts
 
@@ -89,13 +88,15 @@ Commands are an important way to interact with VSCode and your code. To open the
 | `Ctrl + Shift + W`         | `Cmd + Shift + W`         | Close the current window (aka. rage quit) |
 | `Ctrl + Shift + T`         | `Cmd + Shift + T`         | Reopen the last closed tab                |
 
-### Search
+### Search & Navigation
 
 | Shortcut (win)     | Shortcut (mac)    | Description                    |
 | ------------------ | ----------------- | ------------------------------ |
 | `Ctrl + P`         | `Cmd + P`         | Search for file by name        |
 | `Ctrl + Shift + F` | `Cmd + Shift + F` | Search for text in files       |
 | `Ctrl + T`         | `Cmd + T`         | Search for symbol in workspace |
+| `Ctrl + G`         | `Cmd + G`         | Go to line                     |
+| `Ctrl + Click`     | `Cmd + Click`     | Go to definition               |
 
 ### Editor
 
@@ -107,8 +108,21 @@ Commands are an important way to interact with VSCode and your code. To open the
 | `Ctrl + Shift + L` | `Cmd + Shift + L`  | Select all occurrences of current selection |
 | `Ctrl + Shift + I` | `Cmd + Shift + I`  | Add cursor to line ends                     |
 | `F2`               | `F2`               | Rename symbol                               |
+| `Ctrl + .`         | `Cmd + .`          | Quick fix                                   |
 
 You can also manually add multiple cursors by holding `Alt` (`Option` on mac) and clicking where you want to add a cursor.
+
+## Commands
+
+Commands are an important way to interact with VSCode and your code. To open the command palette, press `Ctrl + Shift + P` (win) or `Cmd + Shift + P` (mac) or `F1` (win & mac).
+
+**Useful Commands:**
+
+- Format Document
+- Organize Imports
+- Sort Lines Ascending/Descending
+- Transform to Uppercase/Lowercase
+- **Reload Window** (SUPER USEFUL IF SOMETHINGS ACTING WEIRD)
 
 ## Snippets
 
@@ -116,15 +130,6 @@ Snippets are a way to quickly insert code. A commonly used snippet is the `for` 
 
 Some extensions main purpose are snippets. The extension `ES7+ React/Redux/GraphQL/React-Native snippets` adds a bunch of snippets for React, allowing to easily create components, hooks, and more. For example, typing `tsrfc` and pressing `Tab` will create a blank React functional component in typescript.
 
-## Tasks
+## Scenarios
 
-## Debugging
-
-## Git
-
-## Useful Links
-
-# TO BE ADDRESSED
-
-- Finding by reference
-- Refactoring
+Try out some of the scenarios in the scenarios folder to get a feel for VSCode! Try and solve them in the least amount of steps as possible!
