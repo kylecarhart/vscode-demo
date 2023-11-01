@@ -1,0 +1,15 @@
+SELECT e."EMPLOYEE_ID",
+  e."FIRST_NAME",
+  e."MIDDLE_NAME",
+  e."LAST_NAME",
+  e."EMAIL",
+  e."PHONE_NUMBER",
+  e."HIRE_DATE",
+  e."END_DATE",
+  e."JOB_ID",
+  e."SALARY",
+  e."COMMISSION_PCT",
+  e."MANAGER_ID",
+  e."DEPARTMENT_ID"
+FROM "EMPLOYEE" e
+WHERE e."END_DATE" IS NULL;
