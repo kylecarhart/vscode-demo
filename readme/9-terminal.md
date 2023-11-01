@@ -1,16 +1,15 @@
-## Terminal
+## Integrated Terminal
 
-To open the integrated terminal, you can drag up from the bottom of the screen, or press `Ctrl + ~` (win) or `⌃ + ~` (mac).
+The integrated terminal in VSCode can be accessed by dragging upwards from the bottom of the screen, or by using the shortcut `Ctrl + ~` on Windows or `⌃ + ~` on macOS.
 
-### Choosing Terminals
+### Terminal Selection
 
-If you have more than one terminal software installed on your computer, you can choose which one to open by clicking the down arrow next to the plus icon.
+If multiple terminal applications are installed on your system, VSCode allows you to select your preferred one. This can be done by clicking the downward arrow next to the plus icon in the terminal pane.
 
-### Splitting Terminals
+### Terminal Splitting
 
-You can also split the terminal by choosing the `Split Terminal` option, or clicking the square icon with the line going through it.
+VSCode also supports splitting the terminal view, which can be useful when you need to observe the output of multiple commands simultaneously. This can be achieved by selecting the `Split Terminal` option or by clicking the icon that resembles a square split by a line.
 
+### Terminal Closure
 
-### Closing Terminals
-
-You can close a terminal instance by clicking the trash can icon.
+To close a terminal instance, simply click the trash can icon. Remember, closing a terminal will also terminate any processes running within it.

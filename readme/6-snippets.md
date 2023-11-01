@@ -1,5 +1,11 @@
-## Snippets
+## Code Snippets
 
-Snippets are a way to quickly insert code. A commonly used snippet is the `for` loop snippet. To use it, type `for` and press `Tab`, which will insert a for-loop. The `for` loop snippet will also allow you to tab through the variable name, the condition, and the increment.
+Code snippets are a handy tool for inserting frequently used code structures quickly.
 
-Some extensions main purpose are snippets. The extension `ES7+ React/Redux/GraphQL/React-Native snippets` adds a bunch of snippets for React, allowing to easily create components, hooks, and more. For example, typing `tsrfc` and pressing `Tab` will create a blank React functional component in typescript.
+A popular example is the `for` loop snippet. To utilize it, simply type `for` and hit `Tab`. This action will generate a for-loop, and you can conveniently navigate through the variable name, condition, and increment by using the `Tab` key.
+
+### Code Snippet Extensions
+
+There are extensions whose primary function is to provide snippets. One such extension is `ES7+ React/Redux/GraphQL/React-Native snippets`, which offers a plethora of snippets for React, making it effortless to construct components, hooks, and more.
+
+For instance, inputting `tsrfc` and pressing `Tab` will generate a blank React functional component in TypeScript.

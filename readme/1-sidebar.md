@@ -2,27 +2,47 @@
 
 ### Explorer
 
-- Where you can view files.
-- You can also view an outline of the current file you are in.
-- You can also view the timeline of the file changes.
+This is where you can view the files in your project.
+
+The `Outline` accordion allows you to see an outline of your file. This is especially useful for larger files.
+
+The `Timeline` accordion shows changes to your files.
 
 ### File Search
 
-You can search for files, you can also get to this through the keyboard shortcut below.
-- You can search by case, whole word, or even regex.
-- You can open a "Search Editor" which allows you to see context surrounding a search with syntax highlighting, linking, and intellisense.
-- Clicking the down arrow next to the search box will open the replace.
-- Clicking the 3 dots, you can further define your search for files you want to include/exclude.
-    - Use asterisks as wildcards, and commas to define more than one rule.
+This is where you can search for files in your project. You can also get to this by pressing `Ctrl + Shift + F` (win) or `⌘ + Shift + F` (mac).
+
+You can search by case, whole word, or even regex.
+
+Clicking the down arrow next to the search bar opens the find & replace.
+
+Clicking the 3 dots below the search bar, you can further define your search for files you want to include/exclude. Use asterisks as wildcards, and commas to define more than one rule.
+
+> For example: This will search for all `ts` and `tsx` files, but not include any test files within your project:
+
+```
+files to include: *.ts, *.tsx
+files to exclude: *.test.ts, *.test.tsx
+```
+
+#### Search Editor
+
+You can open a "Search Editor" which allows you to see context surrounding a search with syntax highlighting, linking, and intellisense.
 
 ### Git
 
-- Has many of the basic git commands if you dont like the terminal, though I highly recommend learning git through the terminal and I could do an entire session just dedicated to git.
+This includes numerous fundamental Git commands for those who prefer not to use the terminal.
+
+_However, I strongly suggest mastering Git through the terminal. In fact, an entire session could be devoted solely to this topic._
 
 ### Debug
 
-- Not going to go into too much detail here, but you can create run configurations for your applications to make debugging easier, which allows you to place break points and view variables in the context of a running application. This can and should be a session on its own.
+While I won't delve deeply into this topic here, it's worth noting that you can establish run configurations for your applications. This simplifies the debugging process by enabling you to set breakpoints and examine variables within the context of an operational application.
+
+_This topic is substantial enough to warrant its own dedicated session._
 
 ### Extensions
 
-- Further enhance your vscode by downloading extensions built by the community or even Microsoft themselves.
+Boost your VSCode experience by installing extensions, created by both the community and Microsoft.
+
+_View the `extensions` readme for more information._
