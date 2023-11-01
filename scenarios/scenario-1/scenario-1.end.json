@@ -39,46 +39,6 @@
     {
       "name": "webpage",
       "ext": "html"
-    },
-    {
-      "name": "style",
-      "ext": "css"
-    },
-    {
-      "name": "data",
-      "ext": "json"
-    },
-    {
-      "name": "database",
-      "ext": "sql"
-    },
-    {
-      "name": "configuration",
-      "ext": "cfg"
-    },
-    {
-      "name": "log",
-      "ext": "log"
-    },
-    {
-      "name": "source",
-      "ext": "c"
-    },
-    {
-      "name": "binary",
-      "ext": "bin"
-    },
-    {
-      "name": "markdown",
-      "ext": "md"
-    },
-    {
-      "name": "vector",
-      "ext": "svg"
-    },
-    {
-      "name": "font",
-      "ext": "ttf"
     }
   ]
 }

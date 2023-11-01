@@ -1,4 +1,4 @@
-## Extensions
+# Extensions
 
 Here is a list of some of my most used extensions. You can install them by clicking the links below, or by searching for them in the extensions tab in VSCode.
 

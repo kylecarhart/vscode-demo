@@ -1,4 +1,4 @@
-## Utilizing Workspaces
+# Utilizing Workspaces
 
 Workspaces in VSCode provide a convenient way to manage multiple projects within a single window. This feature is particularly useful when working with a collection of related projects, such as the various microservices that make up your tech stack. Workspaces also support unique settings for each workspace, allowing you to customize the editor configuration to suit the needs of each individual project.
 

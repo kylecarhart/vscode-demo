@@ -1,4 +1,4 @@
-## Interacting with VSCode Using Commands
+# Interacting with VSCode Using Commands
 
 Commands provide a crucial method for engaging with VSCode and your programming projects. You can access the command palette by `Ctrl + Shift + P` on Windows, `⌘ + Shift + P` on Mac, or `F1` on both platforms.
 

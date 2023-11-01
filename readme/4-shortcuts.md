@@ -1,6 +1,6 @@
-## Shortcuts
+# Shortcuts
 
-### General
+## General
 
 | Shortcut (win)             | Shortcut (mac)          | Description                               |
 | -------------------------- | ----------------------- | ----------------------------------------- |
@@ -12,7 +12,7 @@
 | `Ctrl + Shift + W`         | `⌘ + Shift + W`         | Close the current window (aka. rage quit) |
 | `Ctrl + Shift + T`         | `⌘ + Shift + T`         | Reopen the last closed tab                |
 
-### Search & Navigation
+## Search & Navigation
 
 | Shortcut (win)     | Shortcut (mac)  | Description                    |
 | ------------------ | --------------- | ------------------------------ |
@@ -22,7 +22,7 @@
 | `Ctrl + G`         | `⌘ + G`         | Go to line                     |
 | `Ctrl + Click`     | `⌘ + Click`     | Go to definition               |
 
-### Editor
+## Editor
 
 | Shortcut (win)     | Shortcut (mac)  | Description                                 |
 | ------------------ | --------------- | ------------------------------------------- |
@@ -36,6 +36,6 @@
 
 You can also manually add multiple cursors by holding `Alt` (`⌥` on mac) and clicking where you want to add a cursor.
 
-## Scenarios
+# Scenarios
 
 Experiment with the examples in the `/scenarios` directory to familiarize yourself with these shortcuts! Aim to solve them using the fewest steps possible!

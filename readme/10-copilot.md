@@ -1,4 +1,4 @@
-## Copilot
+# Copilot
 
 GitHub Copilot is an AI-powered coding assistant that can help you write code more efficiently. It provides:
 
@@ -6,7 +6,7 @@ GitHub Copilot is an AI-powered coding assistant that can help you write code mo
 - Boilerplate code generations
 - Contextual understanding
 
-## Copilot Chat
+# Copilot Chat
 
 Copilot Chat is a feature of GitHub Copilot that allows you to interact with the AI in a conversational manner, similar to using ChatGPT in the browser. It provides:
 
